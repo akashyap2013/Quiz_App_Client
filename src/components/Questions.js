@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 
+
 /** Custom Hook */
 import { useFetchQestion } from '../hooks/FetchQuestion'
 
@@ -13,7 +14,7 @@ export default function Questions() {
    
 
     useEffect(() => {
-        console.log(questions)
+        // console.log(questions)
     })
     
     function onSelect(){
