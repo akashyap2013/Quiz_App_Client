@@ -9,7 +9,7 @@ export default function Quiz() {
     const state = useSelector(state => state)
 
     useEffect(() => {
-        console.log(state)
+        // console.log(state)
     })
 
     /** next button event handler */
